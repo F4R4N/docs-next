@@ -1,31 +1,36 @@
 # v3.vuejs.org
 
-This site is built with [VuePress](https://vuepress.vuejs.org/). Site content is written in Markdown format located in `src`.
+<div dir="rtl">
 
-## Writing
+این سایت با [VuePress](https://vuepress.vuejs.org/) بیلد شده است. محتویات سایت در قالب مارکداون نوشته شده اند، و در دایرکتوری `src` قرار دارند.
 
-See the [Vue Docs Writing Guide](https://v3.vuejs.org/guide/writing-guide.html) for our rules and recommendations on writing and maintaining documentation.
 
-## Developing
+## نوشتن
 
-1. Clone repository
+برای قوانین و ترجیحات نوشتن و نگه داری از مستندات، [راهنمای نوشتن مستندات Vue](https://v3.vuejs.org/guide/writing-guide.html) مشاهده کنید.
+
+## توسعه دادن
+
+1. مخزن (ریپوزیتوری) را کلون کنید
 
 ```bash
-git clone git@github.com:vuejs/docs-next.git
+git clone git@github.com:F4R4N/docs-next.git
 ```
 
-2. Install dependencies
+2. وابستگی (دیپندنسی) ها را نصب کنید
 
 ```bash
 yarn # or npm install
 ```
 
-3. Start local development environment
+3. محیط توسعه لوکال خود را راه اندازی کنید
 
 ```bash
 yarn serve # or npm run serve
 ```
 
-## Deploying
+## دیپلوی کردن
+وقتی روی برنچ `master` کامیت صورت گیرد، این سایت به صورت خودکار روی [Netlify](https://www.netlify.com/) دیپلوی میشود.
 
-The site is automatically deployed when commits land in `master`, via [Netlify](https://www.netlify.com/).
+
+</div>
