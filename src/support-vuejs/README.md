@@ -3,58 +3,65 @@ supportvue: true
 sidebar: auto
 ---
 
-# Sponsor Vue.js Development
+<div dir="rtl">
 
-Vue.js is an MIT licensed open source project and completely free to use.
-However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support Vue.js development via the following methods:
+# حامی مالی توسعه Vue.js شوید
 
-## One-time Donations
+Vue.js تحت مجوز MIT منتشر شده است، و پروژه متن باز و کاملا رایگان است.
+با این حال، تلاش برای نگه داری، و توسعه امکانات جدید برای پروژه، بدون پشتوانه مالی مناسب، امکان پذیر نیست. شما میتوانید از طریق را های زیر، به Vue.js کمک کرده و از توسعه آن حمایت کنید:
 
-We accept donations through these channels:
+
+## کمک مالی
+
+میتوانید با استفاده از کانال های زیر به ما کمک مالی کنید:
 
 <support-Coins />
 
-## Recurring Pledges
+## کمک های دوره ای
 
-Recurring pledges come with exclusive perks, e.g. having your name listed in the Vue GitHub repository, or have your company logo placed on this website.
+کمک های دوره دارای مزایایی هستند، برای مثال اسم شما را در مخزن گیت هاب Vue درج میکنیم، یا لوگوی شرکت شما را در این وبسایت قرار میدهیم.
 
-- [Become a backer or sponsor via Patreon](https://www.patreon.com/evanyou) (goes directly to support Evan You's full-time work on Vue)
-- [Become a backer or sponsor via OpenCollective](https://opencollective.com/vuejs) (goes into a fund with transparent expense models supporting community efforts and events)
+- [حمایت مالی از طریق Patreon](https://www.patreon.com/evanyou) (مستقیما برای Evan واریز میشود، کسی که به صورت تمام وقت روی Vue کار میکند)
 
-## Current Premium Sponsors
+- [حمایت مالی از طریق OpenCollective](https://opencollective.com/vuejs) (به صندوق کمک هزینه ای میرود که با خرج های شفاف از تلاش ها و رویداد های انجمن حمایت میکند)
 
-### Special Sponsors
+## حامیان پریمیوم فعلی
+
+### حامیان مالی ویژه
 
 <support-SponsorGroup group="special_sponsors" class="platinum" />
 
-### Platinum
+### پلاتینیوم
 
 <support-SponsorGroup group="platinum_sponsors" class="platinum" />
 
-### OpenCollective Platinum
+### پلاتینیوم در OpenCollective
 
 <support-OpenCollectiveGroup group="platinum" />
 
-### Special Sponsors (China)
+### حامیان مالی ویژه (چین)
 
 <support-SponsorGroup group="platinum_sponsors_china" class="platinum" />
 
-### Patreon Gold
+### طلا در Patreon
 
 <support-SponsorGroup group="gold_sponsors" class="patreon-sponsors sponsor-section" />
 
-### OpenCollective Gold
+### طلا در OpenCollective
 
 <support-OpenCollectiveGroup group="gold" />
 
-### Patreon Silver
+### نقره در Patreon
 
 <support-SponsorGroup group="silver_sponsors" class="patreon-sponsors sponsor-section" />
 
-### OpenCollective Silver
+### نقره در OpenCollective
 
 <support-OpenCollectiveGroup group="silver" />
 
-If you run a business and are using Vue in a revenue-generating product, it makes business sense to sponsor Vue development: **it ensures the project that your product relies on stays healthy and actively maintained.** It can also help your exposure in the Vue community and makes it easier to attract Vue developers.
+اگر شما یک بیزنس را اداره میکنید و از Vue در یک محصول درآمد زا استفاده میکنید، صرف تجاری دارد اگر حامی مالی توسعه Vue شوید: **این کار تضمین میکند که پروژه شما بر که بر پایه Vue است سالم میماند و همواره در حال نگه داری است.** این کار همچنین شما را در جامعه Vue در معرض دید قرار میدهد، و جذب توسعه دهندگان را برای شما آسان تر میکند.
 
-If you are an individual user and have enjoyed the productivity of using Vue, consider donating as a sign of appreciation - like buying me coffee once in a while.
+اگر شما یک کاربر مستقل هستید و از بازدهی Vue لذت میبرید، به عنوان تشکر، کمک مالی را در نظر داشته باشد - یا هر چند وقت یکبار برای من قهوه بخرید.
+
+
+</div>
