@@ -34,3 +34,9 @@ yarn serve # or npm run serve
 
 
 </div>
+
+- [x] support-vuejs -> README.md
+- [x] search -> README.md
+- [x] README.md
+- [ ] guide -> contributing -> doc-style-guide.md
+- [ ] style-guide -> README.md
