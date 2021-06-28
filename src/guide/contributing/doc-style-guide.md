@@ -1,60 +1,73 @@
-# Documentation Style Guide
+<div dir="rtl">
 
-This guide will provide an overview of different design elements that are available for your use in creating documentation.
+# راهنمای سبک نوشتن مستندات
 
-## Alerts
+این راهنما مروری است بر المان های مختلف طراحی که برای شما در ساختن این سند کمک میکند. 
 
-VuePress provides a custom container plugin to create alert boxes. There are four types:
+## هشدار ها
+VuePress افزونه ای برای ساختن جعبه های هشدار سفارشی دارد. که چهار نوع دارد:
 
-- **Info**: Provide information that is neutral
-- **Tip**: Provide information that is positive and encouraged
-- **Warning**: Provide information that users should be aware of as there is a low to moderate
-- **Danger**: Provide information that is negative and has a high risk to the user
+- **Info**: اطلاعاتی ارائه دهید که خنثی باشد
+- **Tip**: اطلاعات مثبت و تشویق کننده ارائه دهید
+- **Warning**: اطلاعاتی را ارائه دهید که کاربران باید از آنها آگاه باشند زیرا اطلاعات کم یا متوسط درباره آن وجود دارد
+- **Danger**: اطلاعاتی را ارائه دهید که منفی است و خطر زیادی برای کاربر دارد
 
-**Markdown Examples**
+**مثال های مارکداون**
+
+
+<div dir="ltr">
 
 ```
 ::: info
-You can find more information at this site.
+میتوانید در این سایت اطلاعات بیشترری پیدا کنید.
 :::
 
 ::: tip
-This is a great tip to remember!
+این نکته خوبی است، آن را به خاطر بسپار!
 :::
 
 ::: warning
-This is something to be cautious of.
+این چیزی است که باید درباره آن محتاط باشد.
 :::
 
 ::: danger DANGER
-This is something we do not recommend. Use at your own risk.
+این چیزی است که ما پیشنهاد نمیکنیم. با مسئولیت خودتان از آن استفاده کنید.
 :::
 ```
 
-**Rendered Markdown**
+</div>
+
+**مارکداون رندر شده**
+
 
 ::: info
-You can find more information at this site.
+میتوانید در این سایت اطلاعات بیشترری پیدا کنید.
 :::
 
 ::: tip
-This is a great tip to remember!
+این نکته خوبی است، آن را به خاطر بسپار!
 :::
 
 ::: warning
-This is something to be cautious of.
+این چیزی است که باید درباره آن محتاط باشد.
 :::
 
 ::: danger DANGER
-This is something we do not recommend. Use at your own risk.
+این چیزی است که ما پیشنهاد نمیکنیم. با مسئولیت خودتان از آن استفاده کنید.
 :::
 
-## Code Blocks
+<div dir="rtl">
+
+## بلوک های کد
+
+</div>
 
 VuePress uses Prism to provide language syntax highlighting by appending the language to the beginning backticks of a code block:
 
 **Markdown Example**
 
+<div dir="ltr">
+
 ````
 ```js
 export default {
@@ -62,14 +75,18 @@ export default {
 }
 ```
 ````
+</div>
 
 **Rendered Output**
 
+<div dir="ltr">
+
 ```js
 export default {
   name: 'MyComponent'
 }
 ```
+</div>
 
 ### Line Highlighting
 
@@ -79,6 +96,8 @@ To add line highlighting to your code blocks, you need to append the line number
 
 **Markdown Example**
 
+<div dir="ltr">
+
 ````
 ```js{2}
 export default {
@@ -90,9 +109,12 @@ export default {
 }
 ```
 ````
+</div>
 
 **Rendered Markdown**
 
+<div dir="ltr">
+
 ```js{2}
 export default {
   name: 'MyComponent',
@@ -102,9 +124,12 @@ export default {
   }
 }
 ```
+</div>
 
 #### Group of Lines
 
+<div dir="ltr">
+
 ````
 ```js{4-5}
 export default {
@@ -116,6 +141,8 @@ export default {
 }
 ```
 ````
+</div>
+<div dir="ltr">
 
 ```js{4-5}
 export default {
@@ -126,9 +153,14 @@ export default {
   }
 }
 ```
+
+</div>
+
 
 #### Multiple Sections
 
+<div dir="ltr">
+
 ````
 ```js{2,4-5}
 export default {
@@ -141,6 +173,10 @@ export default {
 ```
 ````
 
+</div>
+<div dir="ltr">
+
+
 ```js{2,4-5}
 export default {
   name: 'MyComponent',
@@ -150,3 +186,6 @@ export default {
   }
 }
 ```
+
+</div>
+</div>

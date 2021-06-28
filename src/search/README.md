@@ -1,3 +1,3 @@
-# Search Vue.js
+# سرچ در Vue.js
 
 <search-index/>
