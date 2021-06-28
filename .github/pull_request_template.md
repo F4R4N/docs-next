@@ -1,5 +1,5 @@
-## Description of Problem
+## توضیحاتی درباره مشکل
 
-## Proposed Solution
+## راه حل پیشنهادی
 
-## Additional Information
+## اطلاعات بیشتر
